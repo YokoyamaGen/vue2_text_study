@@ -7,7 +7,7 @@ new Vue({
   },
   mounted: function() {
     Vue.set(this.author, 'company', 'WINGSプロジェクト');
-    //console.log(this.$el.textContent.includes(this.author.company));
+    console.log(this.$el.textContent.includes(this.author.company));
 
     let that = this;
     this.$nextTick().then(function () {

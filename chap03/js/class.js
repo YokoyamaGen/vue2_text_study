@@ -1,7 +1,7 @@
 new Vue({
   el: '#app',
   data: {
-    color: true,
-    isChange: true,
+    color: false,
+    isChange: false,
   }
 })
