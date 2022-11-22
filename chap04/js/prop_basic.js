@@ -1,12 +1,12 @@
 Vue.component('my-hello', {
   props: [ 'yourName' ],
 
-  // props: {
-  //   yourName: {
-  //     type: String,
-  //     required: true
-  //   }
-  // },
+  props: {
+    yourName: {
+      type: String,
+      required: true
+    }
+  },
   template: `<div>こんにちは、{{ yourName }}さん！</div>`,
 })
 
